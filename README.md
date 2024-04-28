@@ -2,7 +2,7 @@
 
 <h1>Admin Interface </h1>
  
- ![Screenshot](public/images/admin gest ens.png)
+ ![Screenshot](https://github.com/SiwarDerbeli/projet/blob/master/public/images/admin%20gest%20ens.png)
  
 
 ## Solution Overview
