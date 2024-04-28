@@ -1,70 +1,123 @@
-# Getting Started with Create React App
+# Mini Projet : web Application for our university ISSAT Sousse 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>Admin Interface </h1>
+ 
+ ![Screenshot](public/images/admin gest ens.png)
+ 
 
-## Available Scripts
+## Solution Overview
 
-In the project directory, you can run:
+Our App is a robust web application built on a microservices architecture using Spring boot for the backend, React for the frontend, and MySQL for the database and other open-source tools. 
 
-### `npm start`
+The solution aims to enhance students' experience, streamline teachers' work, support department heads in managing academic programs, and simplify administrative tasks for administrative staff.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Tech-Stack
 
-### `npm test`
+<img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img alt="Spring Boot" src ="https://img.shields.io/badge/Spring%20Boot-%234ea94b.svg?&style=for-the-badge&logo=spring&logoColor=white"/> <img alt="MySQL" src="https://img.shields.io/badge/MySQL-%23323330.svg?&style=for-the-badge&logo=mysql&logoColor=%23F7DF1E"/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# How To Run the Project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+###  Conventional Way
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**_1._** Open Project Folder</br>
 
-### `npm run eject`
+**_2._** To install all dependencies open Command Prompt and run
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm i
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**_3._** To install all client dependencies open client folder and again run
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm i
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**_4._** To run the server-
 
-## Learn More
+```
+npm run server
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**_5._** To run the client-
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm run client
+```
 
-### Code Splitting
+**_6._** To run both server and client- Recommended
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+npm run dev
+```
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# To start contributing, follow the below guidelines and [Code of Conduct](CODE_OF_CONDUCT.md):
 
-### Making a Progressive Web App
+**1.** Fork [this](https://github.com/SiwarDerbeli/projet.git) repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**2.** Clone your forked copy of the project.
 
-### Advanced Configuration
+```
+git clone --depth 1 https://github.com/<your_user_name>/projet.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**3.** Navigate to the project directory :file_folder: .
 
-### Deployment
+```
+cd front 
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**4.** Add a reference(remote) to the original repository.
 
-### `npm run build` fails to minify
+```
+git remote add upstream https://github.com/SiwarDerbeli/projet.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**5.** Check the remotes for this repository.
+
+```
+git remote -v
+```
+
+**6.** Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).
+
+```
+git pull upstream master
+```
+
+**7.** Create a new branch.
+
+```
+git checkout -b <your_branch_name>
+```
+
+**8.** Perform your desired changes to the code base.
+
+**9.** Track your changes:heavy_check_mark: .
+
+```
+git add .
+```
+
+**10.** Commit your changes .
+
+```
+git commit -m "Relevant message"
+```
+
+**11.** Push the committed changes in your feature branch to your remote repo.
+
+```
+git push -u origin <your_branch_name>
+```
+
+**12.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repo you are supposed to make a PR to.
+
+**13.** Add appropriate title and description to your pull request explaining your changes and efforts done.
+
+**14.** Click on `Create Pull Request`.
+
